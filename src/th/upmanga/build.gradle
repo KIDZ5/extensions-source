@@ -1,0 +1,9 @@
+ext {
+    extName = 'Up-Manga'
+    extClass = '.UpManga'
+    themePkg = 'mangathemesia'
+    overrideVersionCode = 0
+    isNsfw = false
+}
+
+apply plugin: "kei.plugins.extension.legacy"
